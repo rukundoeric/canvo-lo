@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WebTunings</title>
+    <link href="index.css" rel="stylesheet">
+    <script src="index.js"></script>
+</head>
+
+<body>
+     <img class = "hidden"
+       id = "goofyPic"
+       src = "https://res.cloudinary.com/newpoint/image/upload/v1603986942/image/image_sal4vg.jpg"
+       alt = "Goofy pic of me" />
+<canvas id="canvas" width="1200" height="800"></canvas>
+
+<div id="controls">
+    <div class="lightBorder">
+        <p><label>Fill Color: <input id="fillColor" type="color" value="#24B0D5"></label></p>
+        <p><label>Fill Canvas: <input id="backgroundColor" type="color" value="#FFFFFF"></label></p>
+        <p><label>Stroke Color: <input id="strokeColor" type="color"></label></p>
+    </div>
+
+     <div class="lightBorder">
+        <p><label>Scale    &nbsp;&nbsp;&nbsp; 1:&nbsp;&nbsp;&nbsp;&nbsp;<input id="defaultScale" type="text" value="100"></label></p>
+        <p><label>Centimeters: &nbsp;&nbsp;&nbsp;<input id="centimeters" disabled type="text" ></label></p>
+        <p><label>Menters: &nbsp;&nbsp;&nbsp;&nbsp;<input id="meters" disabled type="text"></label></p>
+    </div>
+    <p><input id="clearCanvas" type="button" value="Clear Canvas"></p>
+
+</div>
+</body>
+</html>
