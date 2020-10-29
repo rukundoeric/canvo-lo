@@ -18,7 +18,7 @@ canvas{
     top: 100px;
     margin: auto;
     border: 1px solid gray;
-    background: url('image.jpg');
+    background: url('./image.JPG');
     background-size: cover;
     background-repeat: no-repeat;
 }
